@@ -1,0 +1,350 @@
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:958)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:958)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:958)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:937)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:937)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:937)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:872)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:872)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:872)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2149)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2149)	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2149)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2074)	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2074)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at edu.ku.brc.dbsupport.DBConnection.createConnection(DBConnection.java:474)
+	at edu.ku.brc.dbsupport.DBConnection.createConnection(DBConnection.java:474)	at edu.ku.brc.dbsupport.DBConnection.createConnection(DBConnection.java:474)
+	at edu.ku.brc.ui.UIHelper.tryLogin(UIHelper.java:1651)
+	at edu.ku.brc.ui.UIHelper.tryLogin(UIHelper.java:1651)	at edu.ku.brc.ui.UIHelper.tryLogin(UIHelper.java:1651)
+	at edu.ku.brc.af.ui.db.DatabaseLoginPanel$17.construct(DatabaseLoginPanel.java:1275)
+	at edu.ku.brc.af.ui.db.DatabaseLoginPanel$17.construct(DatabaseLoginPanel.java:1275)	at edu.ku.brc.af.ui.db.DatabaseLoginPanel$17.construct(DatabaseLoginPanel.java:1275)
+	at edu.ku.brc.helpers.SwingWorker$2.run(SwingWorker.java:133)
+	at edu.ku.brc.helpers.SwingWorker$2.run(SwingWorker.java:133)	at edu.ku.brc.helpers.SwingWorker$2.run(SwingWorker.java:133)
+	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:745)	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2090)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2090)	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2090)
+	... 17 more
+	... 17 more	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+Caused by: java.net.ConnectException: Connection refusedCaused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:589)	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	... 19 more
+	... 19 more	... 19 more
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:958)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:958)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:958)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:937)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:937)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:937)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:872)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:872)	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:872)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2149)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2149)	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2149)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2074)	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2074)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at edu.ku.brc.dbsupport.DBConnection.createConnection(DBConnection.java:474)
+	at edu.ku.brc.dbsupport.DBConnection.createConnection(DBConnection.java:474)	at edu.ku.brc.dbsupport.DBConnection.createConnection(DBConnection.java:474)
+	at edu.ku.brc.ui.UIHelper.tryLogin(UIHelper.java:1651)
+	at edu.ku.brc.ui.UIHelper.tryLogin(UIHelper.java:1651)	at edu.ku.brc.ui.UIHelper.tryLogin(UIHelper.java:1651)
+	at edu.ku.brc.af.ui.db.DatabaseLoginPanel$17.construct(DatabaseLoginPanel.java:1275)
+	at edu.ku.brc.af.ui.db.DatabaseLoginPanel$17.construct(DatabaseLoginPanel.java:1275)	at edu.ku.brc.af.ui.db.DatabaseLoginPanel$17.construct(DatabaseLoginPanel.java:1275)
+	at edu.ku.brc.helpers.SwingWorker$2.run(SwingWorker.java:133)
+	at edu.ku.brc.helpers.SwingWorker$2.run(SwingWorker.java:133)	at edu.ku.brc.helpers.SwingWorker$2.run(SwingWorker.java:133)
+	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:745)	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2090)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2090)	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2090)
+	... 17 more
+	... 17 more	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+Caused by: java.net.ConnectException: Connection refusedCaused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:589)	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	... 19 more
+	... 19 more	... 19 more
+[en__] en
+[en__] en[en__] en
+The Field Name [doSearch] was not in the Table [Collection Object] in ViewSet [Search]
+The Field Name [doSearch] was not in the Table [Collection Object] in ViewSet [Search]The Field Name [doSearch] was not in the Table [Collection Object] in ViewSet [Search]
+Couldn't find the ViewDef for formtable definition name[Collectors]
+Couldn't find the ViewDef for formtable definition name[Collectors]Couldn't find the ViewDef for formtable definition name[Collectors]
+************************ Type: App  Action: StartUp
+************************ Type: App  Action: StartUp************************ Type: App  Action: StartUp
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '8' (qualifier) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '9' (addendum) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '11' (nameUsage) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.The field '12' (remarks) is hidden in the schema and shouldn't used on the Form 'Determination Table'.
+Warning: Could not get charToByteConverterClass!
+Warning: Could not get charToByteConverterClass!Warning: Could not get charToByteConverterClass!
